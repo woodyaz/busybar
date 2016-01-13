@@ -16,10 +16,10 @@ Plus Electron looked neat, so here we are.
 
 ## Installation
 
-1) Clone this repo.
+1. Clone this repo.
   `git clone https://github.com/woodyaz/busybar.git`
-2) Run `npm install`
-3) `npm start`
+2. Run `npm install`
+3. `npm start`
 
 ## To Do
 
