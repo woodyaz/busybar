@@ -1,0 +1,12 @@
+{
+  "name": "BusyBar",
+  "version": "0.0.1",
+  "main": "main.js",
+  "dependencies": {
+    "electron-prebuilt": "^0.36.3"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "test": "node server.js"
+  }
+}

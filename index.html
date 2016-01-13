@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>BusyBar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id='status' class='span'>
+      <h1>Currently Available</h1>
+      <h2>Feel free to chat me up!</h2>
+    </div>
+    <input type='button' class='busy' value='Busy'></input>
+    <input type='button' class='free' value='Free'></input>
+    <!-- We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>. -->
+  </body>
+  <!--<script type='text/javascript' src='js/jquery-2.2.0.min.js'></script> -->
+  <script type='text/javascript'>
+    //JQuery needs to be loaded this way due to CommonJS - https://github.com/atom/electron/issues/254
+    window.$ = window.jQuery = require('./js/jquery-2.2.0.min.js');
+  </script>
+  <script type='text/javascript' src='js/bootstrap.min.js'></script>
+  <script type='text/javascript' src='js/main.js'></script>
+</html>
